@@ -1,0 +1,2497 @@
+[00:00:02.261] Server  LOG     It looks like you're trying to use TypeScript but do not have the required package(s) installed.
+Installing dependencies
+
+If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).
+
+[00:00:03.307] Server  LOG     
+[00:00:03.309] Server  LOG     Installing devDependencies (npm):
+[00:00:03.310] Server  LOG     - @types/react
+[00:00:03.311] Server  LOG     - @types/node
+[00:00:03.313] Server  LOG     
+[00:00:10.786] Server  LOG     
+[00:00:10.804] Server  LOG     
+[00:00:10.804] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:10.805] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:10.805] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:10.806] Server  LOG     
+[00:00:11.259] Server  LOG      ✓ Ready in 10.3s
+[00:01:46.743] Browser LOG     Refreshing page data due to server-side change
+[00:19:06.816] Browser LOG     shared
+[00:21:13.167] Server  WARN     ⚠ Cross origin request detected from 172.26.80.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:26:09.970] Server  LOG      ✓ Compiled in 148ms
+[00:26:10.085] Browser LOG     Refreshing page data due to server-side change
+[00:26:10.085] Browser ERROR   ./pages/chat.tsx:183:30
+Parsing ecmascript source code failed
+  181 |                 placeholder="Type your message..."
+  182 |               />
+> 183 |               <div className="absolute inset-0 bg-gradient-to-r from
+      |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+[00:26:10.085] Browser ERROR   ./pages/chat.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/chat.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/chat.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:26:10.085] Browser LOG     Refreshing page data due to server-side change
+[00:26:10.085] Browser ERROR   ./pages/chat.tsx:183:30
+Parsing ecmascript source code failed
+  181 |                 placeholder="Type your message..."
+  182 |               />
+> 183 |               <div className="absolute inset-0 bg-gradient-to-r from
+      |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Unterminated string constant
+[00:26:10.085] Browser ERROR   ./pages/chat.tsx
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/chat.tsx [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/chat.tsx [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:26:12.687] Server  LOG      ✓ Compiled in 159ms
+[00:26:13.090] Browser LOG     Refreshing page data due to server-side change
+[00:26:13.090] Browser LOG     Refreshing page data due to server-side change
+[00:27:26.876] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.887] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.896] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.903] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.912] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.921] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.929] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.937] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.944] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.953] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.959] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.966] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.974] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.980] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.986] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.992] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:26.998] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.005] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.010] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.016] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.027] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.032] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.038] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.044] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.050] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.056] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.062] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.068] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.074] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.080] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.088] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.094] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.100] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.106] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.112] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.118] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.123] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.129] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.135] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.142] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.153] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.163] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.173] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.184] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.193] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.205] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.214] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.224] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.234] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.245] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.255] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.264] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.274] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.286] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.296] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.308] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.317] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.326] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.336] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.345] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.360] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.370] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.379] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.388] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.399] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.408] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.417] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.427] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.438] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.447] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.457] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.467] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.480] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.491] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.501] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.510] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.520] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.529] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.541] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.551] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:27:27.566] Server  LOG      ✓ Compiled in 252ms
+[00:27:28.079] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:27:28.080] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:12.684] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.696] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.704] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.711] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.719] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.727] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.735] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.744] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.751] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.760] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.768] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.776] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.783] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.791] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.801] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.811] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.820] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.827] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.834] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.842] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.852] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.859] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.865] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.872] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.879] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.884] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.890] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.895] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.901] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.907] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.913] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.918] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.924] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.930] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.936] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.942] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.947] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.953] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.958] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.965] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.974] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.982] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:12.993] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.004] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.029] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.051] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.072] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.104] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.137] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.168] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.182] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.200] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.215] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.230] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.246] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.260] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.275] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.288] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.304] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.317] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.336] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.352] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.367] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.383] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.400] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.415] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.428] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.463] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.482] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.494] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.504] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.514] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.523] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.529] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.537] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.547] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.552] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.558] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.563] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.568] Server  ERROR    ⨯ ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:29:13.576] Server  LOG      ✓ Compiled in 236ms
+[00:29:14.085] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:14.085] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:36.087] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:36.087] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:39.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:39.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:41.084] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:41.084] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:42.089] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:42.089] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:43.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:43.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:43.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:43.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:44.995] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:45.086] Browser ERROR   ./pages/chat.tsx:2:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import { useEffect, useRef, useState } from 'react';
+> 2 | import { MessageCircle, Users, Send, MapPin, Sparkles, TrendingUp, Brain, Menu, X } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | type Message = { username: string; text?: string; url?: string; createdat?: number; created_at?: string; sender_name?: string };
+  5 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:29:45.362] Server  LOG      ✓ Compiled in 137ms
+[00:29:53.477] Server  LOG      ✓ Compiled in 2.3s
+[00:30:54.074] Server  LOG      ✓ Compiled in 158ms
+[00:30:56.467] Server  LOG      ✓ Compiled in 232ms
+[00:56:22.323] Server  LOG      ✓ Compiled in 190ms
+[00:58:57.914] Browser ERROR   {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3000/api/ai/insights/general","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2469:167)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async fetchInsights (http://localhost:3001/_next/static/chunks/%5Broot-of-the-server%5D__dfa43c85._.js?id=%255Bproject%255D%252Fpages%252Fchat.tsx+%255Bclient%255D+%2528ecmascript%2529:122:25)","status":500}
+[00:59:08.343] Browser ERROR   {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"http://localhost:3000/api/ai/insights/general","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"AxiosError: Request failed with status code 500\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:1954:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2469:167)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:3273:49)\n    at async fetchInsights (http://localhost:3001/_next/static/chunks/%5Broot-of-the-server%5D__dfa43c85._.js?id=%255Bproject%255D%252Fpages%252Fchat.tsx+%255Bclient%255D+%2528ecmascript%2529:122:25)","status":500}
