@@ -29,7 +29,7 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 let socket = null;
 function connectSocket(token) {
     if (socket) return socket;
-    socket = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$socket$2e$io$2d$client__$5b$external$5d$__$28$socket$2e$io$2d$client$2c$__esm_import$29$__["io"])(("TURBOPACK compile-time value", "http://localhost:3000") || 'http://localhost:3000', {
+    socket = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$socket$2e$io$2d$client__$5b$external$5d$__$28$socket$2e$io$2d$client$2c$__esm_import$29$__["io"])(("TURBOPACK compile-time value", "https://chatapp-backend-eosin.vercel.app") || 'http://localhost:3000', {
         query: {
             token
         },
@@ -155,7 +155,7 @@ function ChatPage() {
         setLoadingInsights(true);
         setInsights('');
         try {
-            const res = await __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].get((("TURBOPACK compile-time value", "http://localhost:3000") || 'http://localhost:3000') + `/api/ai/insights/${room}`);
+            const res = await __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__["default"].get((("TURBOPACK compile-time value", "https://chatapp-backend-eosin.vercel.app") || 'http://localhost:3000') + `/api/ai/insights/${room}`);
             setInsights(res.data.insights || 'No insights generated.');
         } catch (err) {
             console.error(err);

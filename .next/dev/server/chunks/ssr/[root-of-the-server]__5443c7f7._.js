@@ -54,7 +54,7 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ;
 ;
 ;
-const API = ("TURBOPACK compile-time value", "http://localhost:3000");
+const API = ("TURBOPACK compile-time value", "https://chatapp-backend-eosin.vercel.app");
 function Register() {
     const [name, setName] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])('');
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])('');
